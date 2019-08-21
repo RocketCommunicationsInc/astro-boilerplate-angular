@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/css/astro.core.min.css",
               "src/styles.css"
             ],
             "scripts": []

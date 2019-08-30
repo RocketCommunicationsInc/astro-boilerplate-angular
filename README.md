@@ -1,27 +1,39 @@
-# AstroAngularBoilerplate
+# Create a New Astro App (Angular)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
+Astro Components are all based on Google’s [LitElement](https://lit-element.polymer-project.org). This starter kit makes use of the of [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
 
-## Development server
+## Requirements
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This guide assumes basic familiarity with and installed Angular, NodeJS, NPM, Terminal and Git.
 
-## Code scaffolding
+## Getting Started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+[Install the AngularCLI globally](https://angular.io/cli) if not already installed
 
-## Build
+```
+npm i -g @angular/cli
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Clone this repository to your local environment
 
-## Running unit tests
+```
+git clone https://bitbucket.org/rocketcom/astro-boilerplate-angular.git
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Navigate to directory where you cloned the repository
 
-## Running end-to-end tests
+Install dependencies
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```
+npm i
+```
 
-## Further help
+Launch the bootstrap app
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```
+ng serve
+```
+
+If your default browser does not open launch and navigate to [http://localhost:4200](http://localhost:4200)
+
+The bootstrap initial state is a blank canvas with an Astro Global Status Bar component visible along with the Astro Clock component.
